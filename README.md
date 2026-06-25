@@ -1,54 +1,62 @@
 # 🍹 Juice Store Website
 
-موقع تعريفي لمتجر بيع العصائر الطازجة بتصميم عصري وواجهة سهلة الاستخدام.
+A modern promotional website for a fresh juice store, featuring an attractive design and a user-friendly interface.
 
 ---
 
-## 📌 نبذة عن المشروع
-هذا المشروع عبارة عن **موقع تعريفي لمتجر عصائر** تم تصميمه وبرمجته لعرض المنتجات بطريقة جذابة مع واجهة مستخدم سهلة التصفح.
+## 📌 Project Overview
 
-يهدف الموقع إلى:
-- تقديم تجربة مستخدم بسيطة وجذابة
-- إبراز جودة المنتجات الطبيعية
-- تصميم متجاوب مع جميع الأجهزة
+This project is a **Juice Store Website** designed and developed to showcase fresh juice products through a clean, engaging, and easy-to-navigate user experience.
 
----
+The website aims to:
 
-## 💻 التقنيات المستخدمة
-- HTML
-- CSS
-- JavaScript
+* Provide a simple and engaging user experience
+* Highlight the quality of natural and fresh products
+* Deliver a fully responsive design across all devices
 
 ---
 
-## 🎨 المميزات
-- تصميم عصري ومنعش
-- واجهة سهلة الاستخدام
-- عرض المنتجات بشكل مرتب
-- متوافق مع الجوال والكمبيوتر
-- أداء سريع وخفيف
+## 💻 Technologies Used
+
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-## 🥤 أنواع المنتجات
-- عصائر طبيعية
-- عصائر مشكلة
-- عصائر فريش
-- مشروبات باردة
-- عروض خاصة
+## 🎨 Key Features
+
+* Modern and refreshing design
+* User-friendly interface
+* Well-organized product presentation
+* Fully responsive for mobile and desktop devices
+* Fast and lightweight performance
 
 ---
 
-## 👨‍💻 البرمجة والتصميم
-**محمد مجيب بشر**
+## 🥤 Product Categories
+
+* Natural Juices
+* Mixed Fruit Juices
+* Freshly Squeezed Juices
+* Cold Beverages
+* Special Offers
 
 ---
 
-## 📞 التواصل
-- 967+ 772062777
-- 967+ 782807337
+## 👨‍💻 Design & Development
+
+**Mohammed Mujeeb Bishr**
 
 ---
 
-## 🚀 ملاحظات
-قم بالنقر مرتين على ملف index.html لتشغيل المشروع.
+## 📞 Contact Information
+
+* +967 772062777
+* +967 782807337
+
+---
+
+## 🚀 Notes
+
+Double-click the **index.html** file to run the project locally.
