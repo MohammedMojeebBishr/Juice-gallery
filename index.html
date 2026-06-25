@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="عصائر باريس - تشكيلة فاخرة من العصائر الطبيعية الطازجة بأسلوب عصري وأنيق">
+    <title>عصائر باريس | أطعم عصائر طبيعية</title>
+    <!-- استيراد خطوط جوجل (Tajawal) لدعم اللغة العربية بشكل أنيق -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <!-- ملف التنسيقات الخاص بنا -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- شريط التنقل (Header / Navbar) -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">باريس</span>
+                <span class="logo-dot">.</span>
+            </a>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#products">قائمة العصائر</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي (Hero Section) -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="fade-in-up">طعم الطبيعة <span>الفاخر</span> <br>في كل قطرة</h1>
+            <p class="fade-in-up delay-1">عصائر باريس تقدم لكم أشهى وألذ العصائر الطبيعية المحضرة بعناية من أجود أنواع الفواكه الطازجة.</p>
+            <a href="#products" class="btn btn-primary fade-in-up delay-2">اكتشف القائمة</a>
+        </div>
+    </section>
+
+    <!-- قسم من نحن (About Section) -->
+    <section id="about" class="about section">
+        <div class="container about-container">
+            <div class="about-text slide-in-right">
+                <h2 class="section-title">قصتنا مع <span>الطبيعة</span></h2>
+                <p>في <strong>عصائر باريس</strong>، نؤمن بأن الصحة تبدأ من الطبيعة. لذلك نختار فواكهنا بدقة من أفضل المزارع لنقدم لكم كوباً يفيض بالحيوية والانتعاش. رحلتنا بدأت بشغف لتقديم بدائل صحية ولذيذة تتناسب مع أسلوب الحياة العصري.</p>
+                <p>نحن لا نقدم مجرد عصير، بل نقدم تجربة متكاملة من المذاق الفريد والجودة العالية التي تلبي تطلعات عملائنا الراقية.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>+٥٠</h3>
+                        <p>نكهة فريدة</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>١٠٠٪</h3>
+                        <p>فواكه طبيعية</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>+١٠ آلاف</h3>
+                        <p>عميل سعيد</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image slide-in-left">
+                <div class="img-wrapper">
+                    <img src="img/about.jpg" alt="متجر عصائر باريس">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المنتجات (Products Section) -->
+    <section id="products" class="products section bg-light">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title">العصائر <span>المميزة</span></h2>
+                <p>تشكيلة مختارة من أفضل مبيعاتنا، محضرة طازجة يومياً لإنعاش حواسك</p>
+            </div>
+            <div class="products-grid">
+                <!-- المنتج الأول -->
+                <div class="product-card fade-in-up delay-1">
+                    <div class="product-img">
+                        <img src="img/orange.jpg" alt="عصير برتقال فريش">
+                        <div class="product-overlay">
+                            <button class="btn btn-outline" aria-label="أضف للسلة">اطلب الآن</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>إشراقة البرتقال</h3>
+                        <p>برتقال طازج مقطوف بعناية، غني بفيتامين سي</p>
+                        <span class="price">٢٥ ريال</span>
+                    </div>
+                </div>
+                <!-- المنتج الثاني -->
+                <div class="product-card fade-in-up delay-2">
+                    <div class="product-img">
+                        <img src="img/pomegranate.jpg" alt="عصير رمان طبيعي">
+                        <div class="product-overlay">
+                            <button class="btn btn-outline" aria-label="أضف للسلة">اطلب الآن</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>ياقوت الرمان</h3>
+                        <p>رمان طازج وصافي بدون ألوان أو نكهات صناعية</p>
+                        <span class="price">٣٥ ريال</span>
+                    </div>
+                </div>
+                <!-- المنتج الثالث -->
+                <div class="product-card fade-in-up delay-3">
+                    <div class="product-img">
+                        <img src="img/mango.jpg" alt="عصير مانجو استوائي">
+                        <div class="product-overlay">
+                            <button class="btn btn-outline" aria-label="أضف للسلة">اطلب الآن</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>سحر المانجو</h3>
+                        <p>مزيج المانجو الاستوائي الكثيف لطعم لا يقاوم</p>
+                        <span class="price">٣٠ ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-container fade-in-up delay-4">
+                <a href="#products" class="btn btn-primary">عرض القائمة كاملة</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التواصل (Contact Section) -->
+    <section id="contact" class="contact section">
+        <div class="container contact-container">
+            <div class="contact-info slide-in-right">
+                <h2 class="section-title">تواصل <span>معنا</span></h2>
+                <p>نحن هنا للاستماع إليك! شاركنا رأيك أو استفسارك وسنقوم بالرد عليك في أقرب وقت ممكن.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="icon">📍</div>
+                        <p>اليمن، صنعاء</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">📞</div>
+                        <p dir="ltr" style="text-align: right;">+967 772 062 777<br>+967 782 807 337</p>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <p>mohammedmojepp4063155@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container slide-in-left">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="الاسم الكريم">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="البريد الإلكتروني">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="رسالتك..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">إرسال الرسالة</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h2>باريس<span class="logo-dot">.</span></h2>
+                    <p>وجهتك الأولى للعصائر الطبيعية المنعشة والمعدة بشغف للحياة الصحية.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#products">المنتجات</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>تابعنا</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="إنستغرام">IG</a>
+                        <a href="#" aria-label="تويتر">TW</a>
+                        <a href="#" aria-label="فيسبوك">FB</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 عصائر باريس. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ملف الجافاسكريبت الخاص بنا -->
+    <script src="js/script.js"></script>
+</body>
+</html>
